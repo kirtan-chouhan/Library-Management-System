@@ -1,19 +1,21 @@
-# Library Management System
+# Library Management System (Java Swing)
 
-A Java-based Library Management System using JDBC and MySQL.
+A desktop-based Library Management System developed using Java Swing and JDBC.
 
 ## Features
+- Login system
 - Add, update, delete books
 - Issue and return books
-- Student & admin login
+- Manage members
 
 ## Technologies Used
 - Core Java
+- Java Swing
 - JDBC
 - MySQL
-- HTML & CSS
 
 ## How to Run
-1. Import project in IDE
-2. Configure MySQL database
-3. Run Main class
+1. Open project in any Java IDE
+2. Import MySQL JDBC connector
+3. Update database credentials in DBConnection.java
+4. Run LoginGUI.java
